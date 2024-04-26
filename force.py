@@ -13,13 +13,13 @@ wordlist = open(f'{args.wordlist}', 'r')
 wordlist = wordlist.readlines()
 
 print("""
-______ ___________  _____  _____ 
-|  ___|  _  | ___ \/  __ \|  ___|
-| |_  | | | | |_/ /| /  \/| |__  
-|  _| | | | |    / | |    |  __| 
-| |   \ \_/ / |\ \ | \__/\| |___ 
-\_|    \___/\_| \_| \____/\____/ 
----------------------------------""")
+ ______ ___________  _____  _____ 
+ |  ___|  _  | ___ \/  __ \|  ___|
+ | |_  | | | | |_/ /| /  \/| |__  
+ |  _| | | | |    / | |    |  __| 
+ | |   \ \_/ / |\ \ | \__/\| |___ 
+ \_|    \___/\_| \_| \____/\____/ 
+ ---------------------------------""")
 
 for entry in wordlist:
     url = f'{args.url}{entry.strip()}'
@@ -27,7 +27,7 @@ for entry in wordlist:
     x = requests.get(url)
 
     if args.code == 000:
-        print("[{}]: /{}".format(x.status_code, entry.strip()))
+        print(" [{}]: /{}".format(x.status_code, entry.strip()))
     
     elif x.status_code == args.code:
-        print("[{}]: /{}".format(x.status_code, entry.strip()))
+        print(" [{}]: /{}".format(x.status_code, entry.strip()))
