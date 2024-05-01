@@ -1,4 +1,4 @@
-# IP-Force
+# Web-Force
 
 A Multi-Threaded Python Web Directory Bruteforcer that can make use of a user specified wordlist for the purpose of bruteforcing.
 
