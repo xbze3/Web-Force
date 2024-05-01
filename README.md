@@ -8,9 +8,9 @@ A Multi-Threaded Python Web Directory Bruteforcer that can make use of a user sp
 
 ### Flags
 
-`-u | --url` - Target URL
+`-u | --url` - Target URL (Required)
 
-`-w | --wordlist` - Path to wordlist file to be used for bruteforcing
+`-w | --wordlist` - Path to wordlist file to be used for bruteforcing (Required)
 
 `-c | --code` - Can be used to display directories which render a specific status code when visited (E.G. 200)
 
