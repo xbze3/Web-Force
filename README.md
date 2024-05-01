@@ -15,3 +15,5 @@ A Multi-Threaded Python Web Directory Bruteforcer that can make use of a user sp
 `-c | --code` - Can be used to display directories which render a specific status code when visited (E.G. 200)
 
 `-e | --extension` - Allows program to also enumerate for files with a specific extension
+
+`-h | --help` - Diplays help screen
