@@ -17,3 +17,7 @@ A Multi-Threaded Python Web Directory Bruteforcer that can make use of a user sp
 `-e | --extension` - Allows program to also enumerate for files with a specific extension
 
 `-h | --help` - Diplays help screen
+
+#### Important Libraries
+
+All necessary libraries can be installed using the command: `pip install -r requirements.txt`
